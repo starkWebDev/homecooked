@@ -49,7 +49,7 @@ const Footer = ({ t }: any) => {
     <>
       <FooterSection>
         <Container>
-          <Row justify="space-between">
+          {/* <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
               <Large to="/">{t("Tell us everything")}</Large>
@@ -123,10 +123,10 @@ const Footer = ({ t }: any) => {
                 </LanguageSwitch>
               </LanguageSwitchContainer>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </FooterSection>
-      <Extra>
+      {/* <Extra>
         <Container border={true}>
           <Row
             justify="space-between"
@@ -169,7 +169,7 @@ const Footer = ({ t }: any) => {
             </FooterContainer>
           </Row>
         </Container>
-      </Extra>
+      </Extra> */}
     </>
   );
 };

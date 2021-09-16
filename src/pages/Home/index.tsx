@@ -21,36 +21,35 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="takeout-box.jpg"
         id="intro"
       />
-      <MiddleBlock
+      {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      />
+      /> */}
       <ContentBlock
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
+        icon="chefs-table.jpg"
         id="about"
       />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="customers-plate.jpg"
         id="mission"
       />
-      <ContentBlock
+      {/* <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"
         id="product"
-      />
+      /> */}
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
