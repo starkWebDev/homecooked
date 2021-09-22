@@ -6,7 +6,7 @@ import MissionContent from "../../content/MissionContent.json";
 // import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 
-const Contact = lazy(() => import("../../components/ContactForm"));
+// const Contact = lazy(() => import("../../components/ContactForm"));
 // const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -43,18 +43,18 @@ const Home = () => {
         icon="customers-plate.jpg"
         id="mission"
       />
-      {/* <ContentBlock
+      <ContentBlock
         type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
+        title={ContactContent.title}
+        content={ContactContent.text}
         icon="waving.svg"
-        id="product"
-      /> */}
-      <Contact
+        id="contact"
+      />
+      {/* <Contact
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
-      />
+      /> */}
     </Container>
   );
 };
